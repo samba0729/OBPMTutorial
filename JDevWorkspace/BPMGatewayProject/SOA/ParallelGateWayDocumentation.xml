@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?oracleBPM version="12.1.3" fileRevision="20120601"?>
+<processDocumentation xmlns="http://xmlns.oracle.com/bpm/taskMetadataService/processDocumentation">
+   <component name="ParallelGateWay">
+      <topicDocumentations>
+         <topicDocumentation name="ParallelGateWay"/>
+         <topicDocumentation name="EVT17607416292550">
+            <labels>
+               <label locale="en">Start</label>
+            </labels>
+            <descriptions>
+               <description locale="en"></description>
+            </descriptions>
+         </topicDocumentation>
+         <topicDocumentation name="EVT17607416292525">
+            <labels>
+               <label locale="en">End</label>
+            </labels>
+         </topicDocumentation>
+         <topicDocumentation name="ACT17607426593960">
+            <labels>
+               <label locale="en">Customer Name</label>
+            </labels>
+            <descriptions>
+               <description locale="en"></description>
+            </descriptions>
+         </topicDocumentation>
+         <topicDocumentation name="GTW17607433079250">
+            <labels>
+               <label locale="en">LoanAmount > 50000</label>
+            </labels>
+            <descriptions>
+               <description locale="en"></description>
+            </descriptions>
+         </topicDocumentation>
+         <topicDocumentation name="ACT17607435789140">
+            <labels>
+               <label locale="en">ScriptTask</label>
+            </labels>
+            <descriptions>
+               <description locale="en"></description>
+            </descriptions>
+         </topicDocumentation>
+         <topicDocumentation name="GTW17607437607962">
+            <labels>
+               <label locale="en">Assing to Managers</label>
+            </labels>
+            <descriptions>
+               <description locale="en"></description>
+            </descriptions>
+         </topicDocumentation>
+         <topicDocumentation name="GTW17607439193924">
+            <labels>
+               <label locale="en">ParallelGateway</label>
+            </labels>
+         </topicDocumentation>
+         <topicDocumentation name="ACT1760744246221">
+            <labels>
+               <label locale="en">Assign to Branch Manager</label>
+            </labels>
+            <descriptions>
+               <description locale="en"></description>
+            </descriptions>
+         </topicDocumentation>
+         <topicDocumentation name="ACT17607460721023">
+            <labels>
+               <label locale="en">Assign to Manager</label>
+            </labels>
+            <descriptions>
+               <description locale="en"></description>
+            </descriptions>
+         </topicDocumentation>
+         <topicDocumentation name="sf17607416292516"/>
+         <topicDocumentation name="sf17607431728693"/>
+         <topicDocumentation name="sf17607434775143"/>
+         <topicDocumentation name="sf17607436452719">
+            <labels>
+               <label locale="en"></label>
+            </labels>
+            <descriptions>
+               <description locale="en"></description>
+            </descriptions>
+         </topicDocumentation>
+         <topicDocumentation name="sf17607439194016"/>
+         <topicDocumentation name="sf17607441720063"/>
+         <topicDocumentation name="sf17607444976092"/>
+         <topicDocumentation name="sf17607451063827"/>
+         <topicDocumentation name="sf17607456121898"/>
+         <topicDocumentation name="sf17607468789430"/>
+         <topicDocumentation name="sf17607469385382"/>
+      </topicDocumentations>
+   </component>
+</processDocumentation>

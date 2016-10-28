@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Faults>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>HumanTasks/SampleHumanTask.task</file>
+      <name>HumanTasks/SampleHumanTask.task</name>
+      <fix/>
+      <msg>Task title not specified</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>HumanTasks/SampleHumanTask.task</file>
+      <name>HumanTasks/SampleHumanTask.task</name>
+      <fix/>
+      <msg>Error assignee not specified</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>HumanTasks/SampleHumanTask.task</file>
+      <name>HumanTasks/SampleHumanTask.task</name>
+      <fix/>
+      <msg>Payload not specified</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>/Schemas/untitled1.xsd</file>
+      <name>/Schemas/untitled1.xsd</name>
+      <fix/>
+      <msg>Corrupted resource 'SchemasUntitled1Xsd'</msg>
+   </Fault>
+</Faults>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.example.org"
+            
+            targetNamespace="http://www.example.org" elementFormDefault="qualified">
+  <xsd:element name="exampleElement" type="PurchaseOrderType">
+
+  </xsd:element>
+  
+  <xsd:complexType name="PurchaseOrderType">
+  <xsd:sequence>
+   <xsd:element name="ShipTo" type="xsd:string" />
+   <xsd:element name="BillTo" type="xsd:string"/>
+  </xsd:sequence>
+  <xsd:attribute name="OrderDate" type="xsd:date"/>
+ </xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Faults>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>HumanTasks/Manager.task</file>
+      <name>HumanTasks/Manager.task</name>
+      <fix/>
+      <msg>Task title not specified</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>HumanTasks/Manager.task</file>
+      <name>HumanTasks/Manager.task</name>
+      <fix/>
+      <msg>Empty Participant definition for Stage1.Participant1</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>HumanTasks/Manager.task</file>
+      <name>HumanTasks/Manager.task</name>
+      <fix/>
+      <msg>Error assignee not specified</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>HumanTasks/Manager.task</file>
+      <name>HumanTasks/Manager.task</name>
+      <fix/>
+      <msg>Payload not specified</msg>
+   </Fault>
+</Faults>

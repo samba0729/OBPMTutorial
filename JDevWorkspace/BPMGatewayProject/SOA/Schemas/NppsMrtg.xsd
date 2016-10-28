@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<xs:schema targetNamespace="http://www.eginniemae.net/NppsMrtg/ns/20121130" 
+xmlns="http://www.eginniemae.net/NppsMrtg/ns/20121130" 
+elementFormDefault="qualified"
+attributeFormDefault="qualified"
+xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:element name="NppsMrtg" type="NppsMrtg"/>
+   <xs:complexType name="NppsMrtg">
+      <xs:sequence>
+	        <xs:element name="POOL_ID" type="xs:string" nillable="true"/>
+			<xs:element name="ISS_TYP" type="xs:string" nillable="true"/>
+			<xs:element name="MRTG_SEQ_NUM" type="xs:int" nillable="true"/>
+			<xs:element name="LOAN_ID" type="xs:string" nillable="true"/>
+			<xs:element name="MRTG_CASE_NUM" type="xs:string" nillable="true"/>
+			<xs:element name="MRTG_ISSR_ID" type="xs:string" nillable="true"/>
+			<xs:element name="POOL_TYP_ID" type="xs:string" nillable="true"/>
+			<xs:element name="MRTG_LOAN_STAT" type="xs:string" nillable="true"/>
+			<xs:element name="MRTG_FIRST_PYMT_DT" type="xs:dateTime" nillable="true"/>
+			<xs:element name="MRTG_LOAN_MTRTY_DT" type="xs:dateTime" nillable="true"/>
+			<xs:element name="MRTG_RT" type="xs:decimal" nillable="true"/>
+			<xs:element name="MRTG_LOAN_OPB" type="xs:decimal" nillable="true"/>
+			<xs:element name="MRTG_FIC" type="xs:decimal" nillable="true"/>
+			<xs:element name="MRTG_LOAN_INIT_UPB" type="xs:decimal" nillable="true"/>
+			<xs:element name="MRTG_ISSR_LOAN_ID" type="xs:string" nillable="true"/>
+			<xs:element name="MRTG_LOAN_STRT" type="xs:string" nillable="true"/>
+			<xs:element name="MRTG_LOAN_CTY" type="xs:string" nillable="true"/>
+			<xs:element name="ORGNTN_LOAN_ZIP" type="xs:string" nillable="true"/>
+			<xs:element name="MRTG_MERS_ID" type="xs:string" nillable="true"/>
+			<xs:element name="MRTG_MOM" type="xs:string" nillable="true"/>
+			<xs:element name="MRTG_LOAN_TO_VAL" type="xs:decimal" nillable="true"/>
+			<xs:element name="MRTG_LOAN_TYP" type="xs:string" nillable="true"/>
+			<xs:element name="EWODS_CR_DT" type="xs:dateTime" nillable="true"/>
+			<xs:element name="EWODS_CR_BY" type="xs:string" nillable="true"/>
+			<xs:element name="EWODS_UPD_DT" type="xs:dateTime" nillable="true"/>
+			<xs:element name="EWODS_UPD_BY" type="xs:string" nillable="true"/>
+			<xs:element name="MTCH_STTS" type="xs:string" nillable="true"/>
+			<xs:element name="MTCH_DT" type="xs:dateTime" nillable="true"/>
+			<xs:element name="MTCH_LOAN_STTS" type="xs:string" nillable="true"/>
+			<xs:element name="MTCH_RCRD_DT" type="xs:dateTime" nillable="true"/>
+			<xs:element name="MTCH_MH_TYP_ID" type="xs:string" nillable="true"/>
+			<xs:element name="MTCH_AGNCY_TYP" type="xs:string" nillable="true"/>
+			<xs:element name="CNSS_TRCT" type="xs:string" nillable="true"/>
+        </xs:sequence>
+   </xs:complexType>
+</xs:schema>

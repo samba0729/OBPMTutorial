@@ -1,0 +1,19 @@
+2016-10-27 13:45:49.889/2.543 Oracle Coherence 12.2.1.2.0 <Info> (thread=main, member=n/a): Loaded operational configuration from "jar:file:/C:/AutoAny/Oracle_bpm/Middleware/oracle_home/coherence/lib/coherence.jar!/tangosol-coherence.xml"
+2016-10-27 13:45:49.977/2.631 Oracle Coherence 12.2.1.2.0 <Info> (thread=main, member=n/a): Loaded operational overrides from "jar:file:/C:/AutoAny/Oracle_bpm/Middleware/oracle_home/coherence/lib/coherence.jar!/tangosol-coherence-override-dev.xml"
+2016-10-27 13:45:49.980/2.633 Oracle Coherence 12.2.1.2.0 <D5> (thread=main, member=n/a): Optional configuration override "/tangosol-coherence-override.xml" is not specified
+2016-10-27 13:45:49.984/2.638 Oracle Coherence 12.2.1.2.0 <D5> (thread=main, member=n/a): Optional configuration override "cache-factory-config.xml" is not specified
+2016-10-27 13:45:49.986/2.640 Oracle Coherence 12.2.1.2.0 <D5> (thread=main, member=n/a): Optional configuration override "cache-factory-builder-config.xml" is not specified
+2016-10-27 13:45:49.989/2.643 Oracle Coherence 12.2.1.2.0 <D5> (thread=main, member=n/a): Optional configuration override "/custom-mbeans.xml" is not specified
+
+Oracle Coherence Version 12.2.1.2.0 Build 65221
+ Grid Edition: Development mode
+Copyright (c) 2000, 2016, Oracle and/or its affiliates. All rights reserved.
+
+2016-10-27 13:45:50.134/2.787 Oracle Coherence GE 12.2.1.2.0 <Info> (thread=main, member=n/a): Created cache factory com.tangosol.net.DefaultConfigurableCacheFactory
+2016-10-27 13:45:50.658/3.311 Oracle Coherence GE 12.2.1.2.0 <Info> (thread=main, member=n/a): The cluster name has not been configured, a value of "skanneganti's cluster" has been automatically generated
+Oct 27, 2016 1:45:51 PM oracle.soa.scac.ValidateComposite loadWSDLs
+WARNING: Validating WSDLs from WSDLManager....  with option UseSoaInfraMds:false
+Oct 27, 2016 1:45:51 PM oracle.fabric.common.wsdl.SchemaManager isIncrementalBuildSupported
+INFO: XMLSchema incremental build enabled.
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=32m; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0

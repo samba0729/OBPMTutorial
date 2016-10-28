@@ -1,0 +1,21 @@
+2016-10-27 15:48:13.592/7.259 Oracle Coherence 12.2.1.2.0 <Info> (thread=main, member=n/a): Loaded operational configuration from "jar:file:/C:/AutoAny/Oracle_bpm/Middleware/oracle_home/coherence/lib/coherence.jar!/tangosol-coherence.xml"
+2016-10-27 15:48:13.717/7.383 Oracle Coherence 12.2.1.2.0 <Info> (thread=main, member=n/a): Loaded operational overrides from "jar:file:/C:/AutoAny/Oracle_bpm/Middleware/oracle_home/coherence/lib/coherence.jar!/tangosol-coherence-override-dev.xml"
+2016-10-27 15:48:13.719/7.386 Oracle Coherence 12.2.1.2.0 <D5> (thread=main, member=n/a): Optional configuration override "/tangosol-coherence-override.xml" is not specified
+2016-10-27 15:48:13.724/7.391 Oracle Coherence 12.2.1.2.0 <D5> (thread=main, member=n/a): Optional configuration override "cache-factory-config.xml" is not specified
+2016-10-27 15:48:13.727/7.393 Oracle Coherence 12.2.1.2.0 <D5> (thread=main, member=n/a): Optional configuration override "cache-factory-builder-config.xml" is not specified
+2016-10-27 15:48:13.729/7.396 Oracle Coherence 12.2.1.2.0 <D5> (thread=main, member=n/a): Optional configuration override "/custom-mbeans.xml" is not specified
+
+Oracle Coherence Version 12.2.1.2.0 Build 65221
+ Grid Edition: Development mode
+Copyright (c) 2000, 2016, Oracle and/or its affiliates. All rights reserved.
+
+2016-10-27 15:48:14.364/8.031 Oracle Coherence GE 12.2.1.2.0 <Info> (thread=main, member=n/a): Created cache factory com.tangosol.net.DefaultConfigurableCacheFactory
+2016-10-27 15:48:16.591/10.258 Oracle Coherence GE 12.2.1.2.0 <Info> (thread=main, member=n/a): The cluster name has not been configured, a value of "skanneganti's cluster" has been automatically generated
+Oct 27, 2016 3:48:19 PM oracle.soa.scac.ValidateComposite loadWSDLs
+WARNING: Validating WSDLs from WSDLManager....  with option UseSoaInfraMds:false
+Oct 27, 2016 3:48:20 PM oracle.fabric.common.wsdl.SchemaManager isIncrementalBuildSupported
+INFO: XMLSchema incremental build enabled.
+Oct 27, 2016 3:48:30 PM oracle.bpm.log.Logger warn
+WARNING: Error loading types: BPM-0: Xml Schema '/Schemas/untitled1.xsd' could not be loaded due to an error parsing the XML tag 'element' defined at line '4'.  Cause: The namespace for prefix 'tns' is not declared..  Action: Fix the Xml Schema to continue
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=32m; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
