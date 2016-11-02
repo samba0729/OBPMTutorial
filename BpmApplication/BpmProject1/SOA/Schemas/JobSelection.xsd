@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.ths.org" targetNamespace="http://www.ths.org"
+            elementFormDefault="qualified">
+  <xsd:element name="JobSelection">
+    <xsd:annotation>
+      <xsd:documentation>A sample element</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Name">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="FirstName" type="xsd:string"/>
+              <xsd:element name="LastName" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="ContactInformation">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="PhoneNo" type="xsd:string"/>
+              <xsd:element name="Email" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="CurrentDesignation" type="xsd:string"/>
+        <xsd:element name="YearsOfExperience" type="xsd:int"/>
+        <xsd:element name="EducationalQualification" type="xsd:string"/>
+        <xsd:element name="CurrentEmployer" type="xsd:string"/>
+        <xsd:element name="WorkAuthorization" type="xsd:string"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
